@@ -1,40 +1,30 @@
-# Mentoria-academica-app
-# 🎓 MentoriaAcademicaAppMobil 📱
+# 🎓 Red Colaborativa Estudiantil
 
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+"Democratizando el apoyo académico inmediato mediante el aprendizaje entre pares."
 
-## 🚀 Descripción del Proyecto
-**MentoriaAcademicaAppMobil** es una plataforma móvil diseñada para conectar a estudiantes universitarios con mentores especializados. El objetivo principal es facilitar el intercambio de conocimientos y fortalecer el rendimiento académico mediante una gestión eficiente de sesiones y un algoritmo de recomendación inteligente.
+Esta plataforma es una red colaborativa diseñada para estudiantes universitarios que buscan resolver dudas académicas de forma rápida, económica y organizada. El proyecto mitiga los tiempos de espera excesivos y los altos costos de tutorías privadas, fomentando una comunidad de apoyo mutuo dentro del campus.
 
-Este proyecto forma parte del desarrollo de tesis para el noveno ciclo de la carrera de **Ingeniería de Sistemas**.
+---
 
-## ✨ Características Principales
-- **Gestión de Roles:** Flujos personalizados para Estudiantes y Mentores.
-- **Buscador de Mentores:** Filtros avanzados por materia, carrera y habilidades.
-- **Sistema de Solicitudes:** Gestión en tiempo real de peticiones de mentoría.
-- **Algoritmo de Matching:** Recomendaciones basadas en las necesidades del estudiante y la experiencia del mentor (Web Scraping / Data Processing).
-- **Notificaciones en Tiempo Real:** Comunicación directa mediante Supabase Realtime.
+## 🚀 Características Principales
+
+Basadas en las necesidades críticas identificadas en el entorno académico:
+
+* **📸 Solicitud de Ayuda por Foto:** Sube una imagen de tu ejercicio o problema académico para evitar redactar fórmulas complejas.
+* **💬 Chat en Tiempo Real:** Interacción inmediata con otros estudiantes para resolver dudas puntuales.
+* **💰 Sistema de Créditos (Ayuda para Preguntar):** Para garantizar la participación activa y evitar el desequilibrio, los usuarios deben ayudar a otros para ganar créditos y poder realizar sus propias consultas.
+* **⭐ Reputación Académica:** Sistema de estrellas y votos para validar la calidad de las respuestas y generar confianza en la comunidad.
+* **🔍 Filtro por Materias:** Organización eficiente basada en la malla curricular de la facultad.
+* **📍 Mapa de Disponibilidad:** Localiza ayudantes activos físicamente dentro del campus universitario.
+
+---
 
 ## 🛠️ Stack Tecnológico
-- **Frontend:** [React Native](https://reactnative.dev/) con [Expo](https://expo.dev/).
-- **Backend as a Service (BaaS):** [Supabase](https://supabase.com/) (Auth, Database, Storage).
-- **Base de Datos:** PostgreSQL.
-- **Gestión de Estado:** Context API / React Hooks.
-- **Estilos:** NativeWind (Tailwind CSS) o Styled Components.
 
-## 📁 Estructura del Repositorio
-```text
-/
-├── src/
-│   ├── api/          # Configuración de clientes (Supabase)
-│   ├── components/   # Componentes reutilizables UI
-│   ├── context/      # Manejo de estado global (Auth, User)
-│   ├── hooks/        # Lógica personalizada
-│   ├── navigation/   # Configuración de rutas
-│   ├── screens/      # Pantallas principales de la App
-│   └── utils/        # Funciones auxiliares y constantes
-├── assets/           # Imágenes y recursos estáticos
-├── supabase/         # Scripts SQL y configuraciones de DB
-└── App.js            # Punto de entrada de la aplicación
+El proyecto está desarrollado utilizando herramientas de vanguardia para asegurar escalabilidad y funcionalidad en tiempo real:
+
+* **Frontend:** [Flutter](https://flutter.dev/) (Multiplataforma)
+* **Backend & Base de Datos:** [Firebase Firestore](https://firebase.google.com/docs/firestore) (NoSQL en tiempo real)
+* **Autenticación:** [Firebase Auth](https://firebase.google.com/docs/auth) (Google Auth Institucional)
+* **Almacenamiento:** [Firebase Storage](https://firebase.google.com/docs/storage) (imágenes de ejercicios)
+* **Notificaciones:** [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging) (FCM)
